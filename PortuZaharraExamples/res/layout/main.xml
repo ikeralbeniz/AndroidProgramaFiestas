@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/marino"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout
+		android:id="@+id/title_bar"
+		android:background="@drawable/title_background"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	<ImageView
+		android:id="@+id/title_icon"
+		android:padding="10px"
+		android:src="@drawable/titleicon"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<TextView
+		android:id="@+id/title_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10px"
+		android:textStyle="bold"
+		android:text="Portu Zaharreko Jaiak" />
+	</LinearLayout>
+    <com.viewpagerindicator.TitlePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        style="@style/Widget.MyTitlepageIndicator" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+</LinearLayout>

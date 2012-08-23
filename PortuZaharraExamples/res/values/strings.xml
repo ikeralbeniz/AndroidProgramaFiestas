@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Portu Zaharreko Jaiak</string>
+    <string name="day9">Jueves 9</string>
+    <string name="day10">Viernes 10</string>
+    <string name="day11">Sabado 11</string>
+    <string name="day12">Domingo 12</string>
+    <string name="day13">Lunes 13</string>
+    <string name="languagetag">es</string>
+    
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Portu Zaharreko Jaiak</string>
+    <string name="day9">9a Osteguna</string>
+    <string name="day10">10a Ostirala</string>
+    <string name="day11">11a Larunbata</string>
+    <string name="day12">12a Igandea</string>
+    <string name="day13">13a Astelehena</string>
+    <string name="languagetag">eu</string>
+    
+</resources>
